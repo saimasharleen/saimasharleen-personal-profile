@@ -1,0 +1,125 @@
+/* extra small device */
+@media(max-width:575px){ 
+    .navbar-nav {
+        background: rgba(34, 34, 34, 0.603);
+        text-align: center;
+    }
+    .navbar-collapse {
+        margin-left: -20px;
+    }
+    .iconb-bar {
+        color: #fff;
+        font-size: 25px;
+    }
+    .navbar-light .navbar-toggler {
+        border-color: #fff;
+    }
+    h2 {
+        font-size: 50px;
+    }
+    #main-body{
+        border: none;
+    }
+    #banner {
+        padding-top: 92px;
+        padding-bottom:245px;
+    } 
+    .banner_text h1 {
+        font-size: 48px;
+    }
+    .cd-words-wrapper b {
+        left:4px;
+        font-size: 35px;
+    }
+    .work li {
+        border: none;
+    }
+    .about-me h4 {
+        margin-top: 10px;
+    }
+    .about-image::after {
+        top: -13px;
+        left: 100px;
+
+    }
+    .follow-me p {
+        padding-right: 0px;
+        padding-top: 0px;
+        font-size: 15px;
+        color: #2e2e2e;
+    }
+    .follow-me p::before {
+        top: 8px;
+        left: 81px;
+    }
+    .follow-me .social-media-about li a {
+        font-size: 21px;
+        margin-right: -3px;
+    }
+    .main-timeline .timeline{
+        width: 100%;
+    }
+    .main-timeline .timeline:nth-child(2n+1) {
+        margin: -39px 0 30px 0;
+    }
+    .main-timeline .timeline:nth-child(2) {
+        margin-top: 13px;
+    }
+    .main-timeline .timeline:nth-child(2n+1) {
+        margin: 4px 0 30px 0;
+    }
+    .testimonial-content p {
+         padding: 0 0; 
+    }
+    .testimonial-content h5 {
+        padding: 0 0px;
+    }
+    .fun-iteam {
+        margin-bottom: 15px;
+    }
+    .post {
+        margin-bottom: 15px;
+    }
+  }
+
+
+/* small device */
+@media(min-width:576px) and (max-width:767px){
+    .banner_text h1 {
+        font-size: 47px;
+    }
+    .iconb-bar {
+        color: #fff;
+        font-size: 25px;
+    }
+    .navbar-light .navbar-toggler {
+        border-color: #fff;
+    }
+    .work li {
+        border-right:none;
+    }
+    .about-image img {
+        margin-left: 63px;
+    }
+    .about-image::after {
+        left: 96px;
+    }
+    .about-me {
+        margin-left: 10px;
+    }
+    .about-me h4 {
+        margin-top: 10px;
+    }
+    .fun-iteam {
+        margin-bottom: 10px;
+    }
+    .testimonial-content h5 {
+        padding: 0 0px;
+    }
+
+
+}
+
+
+/* medium device */
+@media(min-width:768px) and (max-width:991px){  }
